@@ -561,12 +561,13 @@ body {
   }
   
   #services .icon {
-    position: absolute;
+    /* position: absolute;
     left: -15px;
-    top: calc(50% - 32px);
+    top: calc(50% - 32px); */
+    text-align: center;
   }
   
-  #services .icon i {
+  #services .icon img {
     font-size: 64px;
     line-height: 0;
     transition: 0.5s;
