@@ -8,9 +8,11 @@ import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './containers/header/header.component';
 import { FooterComponent } from './containers/footer/footer.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { TeamComponent } from './pages/team/team.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { EducationDetailsComponent } from './pages/education-details/education-details.component';
+import { EducationComponent } from './pages/education/education.component';
+import { SubcribeComponent } from './pages/subcribe/subcribe.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import { ContactComponent } from './pages/contact/contact.component';
     HeaderComponent,
     FooterComponent,
     ServicesComponent,
-    PortfolioComponent,
     TeamComponent,
     ContactComponent,
+    EducationDetailsComponent,
+    EducationComponent,
+    SubcribeComponent,
   ],
   imports: [
     BrowserModule,
