@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { SubcribeComponent } from './pages/subcribe/subcribe.component';
 import { TeamComponent } from './pages/team/team.component';
+import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'education-details', component: EducationDetailsComponent},
   {path: 'education', component: EducationComponent},
-  {path: 'subcribe', component: SubcribeComponent}
+  {path: 'subcribe', component: SubcribeComponent},
+  {path: 'login', component: LoginComponent}
 ];
 
 @NgModule({
