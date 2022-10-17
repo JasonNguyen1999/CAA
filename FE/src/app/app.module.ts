@@ -14,6 +14,7 @@ import { EducationDetailsComponent } from './pages/education-details/education-d
 import { EducationComponent } from './pages/education/education.component';
 import { SubcribeComponent } from './pages/subcribe/subcribe.component';
 import { NewsComponent } from './pages/news/news.component';
+import { NewsDetailsComponent } from './pages/news-details/news-details.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NewsComponent } from './pages/news/news.component';
     EducationComponent,
     SubcribeComponent,
     NewsComponent,
+    NewsDetailsComponent,
   ],
   imports: [
     BrowserModule,
