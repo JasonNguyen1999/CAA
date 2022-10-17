@@ -151,7 +151,7 @@
   }
 
   .navbar .dropdown ul li {
-    min-width: 200px;
+    min-width: 120px;
   }
 
   .navbar .dropdown ul a {
@@ -306,7 +306,7 @@
   .header-title{
     vertical-align: middle;
   }
-  
+
   #user-icon{
     margin-left: 25px;
     font-size: 25px;
@@ -318,7 +318,7 @@
     position: relative;
     display: inline-block;
   }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -329,7 +329,7 @@
     z-index: 1;
     border-radius: 5px;
   }
-  
+
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -337,7 +337,7 @@
     display: block;
     border-bottom: .5px solid;
   }
-  
+
   .dropdown-content a:hover {background-color: #f1f1f1;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {
