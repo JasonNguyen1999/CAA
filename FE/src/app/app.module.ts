@@ -13,6 +13,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { EducationDetailsComponent } from './pages/education-details/education-details.component';
 import { EducationComponent } from './pages/education/education.component';
 import { SubcribeComponent } from './pages/subcribe/subcribe.component';
+import { NewsComponent } from './pages/news/news.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +28,13 @@ import { SubcribeComponent } from './pages/subcribe/subcribe.component';
     EducationDetailsComponent,
     EducationComponent,
     SubcribeComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
