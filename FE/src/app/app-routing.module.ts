@@ -11,7 +11,7 @@ import { TeamComponent } from './pages/team/team.component';
 import { NewsComponent } from './pages/news/news.component';
 import { NewsDetailsComponent } from './pages/news-details/news-details.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-
+import { ProjectsDetailsComponent } from './pages/projects-details//projects-details.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -26,7 +26,7 @@ const routes: Routes = [
   {path: 'news', component: NewsComponent },
   {path: 'news-details', component: NewsDetailsComponent},
   {path: 'projects', component: ProjectsComponent},
-
+  {path: 'projects-details', component: ProjectsDetailsComponent},
 
 ];
 

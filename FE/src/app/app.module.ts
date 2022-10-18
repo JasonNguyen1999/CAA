@@ -16,7 +16,7 @@ import { SubcribeComponent } from './pages/subcribe/subcribe.component';
 import { NewsComponent } from './pages/news/news.component';
 import { NewsDetailsComponent } from './pages/news-details/news-details.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-
+import { ProjectsDetailsComponent } from './pages/projects-details/projects-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +33,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
     NewsComponent,
     NewsDetailsComponent,
     ProjectsComponent,
+    ProjectsDetailsComponent,
   ],
   imports: [
     BrowserModule,
