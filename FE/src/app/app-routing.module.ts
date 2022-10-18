@@ -10,6 +10,8 @@ import { SubcribeComponent } from './pages/subcribe/subcribe.component';
 import { TeamComponent } from './pages/team/team.component';
 import { NewsComponent } from './pages/news/news.component';
 import { NewsDetailsComponent } from './pages/news-details/news-details.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -23,6 +25,8 @@ const routes: Routes = [
   {path: 'subcribe', component: SubcribeComponent },
   {path: 'news', component: NewsComponent },
   {path: 'news-details', component: NewsDetailsComponent},
+  {path: 'projects', component: ProjectsComponent},
+
 
 ];
 
